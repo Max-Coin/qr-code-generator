@@ -14,11 +14,8 @@
 
 		this.overlays = [
 			'pixel.png',
-			'bitcoin-icon.png',
-			'bitcoin-coin.png',
-			'bitcoin-logo.png',
-			'bitcoin-8bit.png',
-			'litecoin-coin.png'
+			'maxcoin.png',
+			'maxcoin-simple.png',
 		];
 
 		this.address = '';
@@ -59,7 +56,7 @@
 			qrcode;
 
 		$('#qrcode').qrcode({
-			text: 'bitcoin:' + this.address,
+			text: 'maxcoin:' + this.address,
 			width: this.pixels * 26,
 			height: this.pixels * 26
 		});

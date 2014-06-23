@@ -1,1 +1,1 @@
-[bitcoinqrcode.org](http://bitcoinqrcode.org)
+[MaxCoin QR Code Generator](http://maxcoin.co.uk/qr)

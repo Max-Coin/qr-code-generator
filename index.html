@@ -4,27 +4,27 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Bitcoin QR Code Generator</title>
+		<title>MaxCoin QR Code Generator</title>
 
-		<meta name="description" content="Bitcoin QR code generator.">
-		<meta name="keywords"    content="bitcoin, litecoin, qr, generator, tool">
+		<meta name="description" content="MaxCoin QR code generator.">
+		<meta name="keywords"    content="maxcoin, bitcoin, qr, generator, tool">
 
 		<link rel="stylesheet" href="lib/foundation/foundation.min.css">
-		<link rel="stylesheet" href="css/bitcoinqrcode.css">
+		<link rel="stylesheet" href="css/maxcoinqrcode.css">
 	</head>
 	<body>
     <div class="row">
 		<div class="large-12 columns">
-			<h1>Bitcoin QR Code Generator</h1>
+			<h1>MaxCoin QR Code Generator</h1>
 
-			<p>Click a <a href="http://en.wikipedia.org/wiki/QR_code">QR code</a> to upload it to <a href="http://imgur.com">Imgur</a>. Find out more about <a href="http://bitcoin.org/">Bitcoin</a>.</p>
+			<p>Click a <a href="http://en.wikipedia.org/wiki/QR_code">QR code</a> to upload it to <a href="http://imgur.com">Imgur</a>. Find out more about <a href="http://maxcoin.co.uk/">MaxCoin</a>.</p>
 
 			<form method="post">
 				<div class="row">
 					<div class="large-9 columns">
-						<label for="address">Bitcoin address:</label>
+						<label for="address">MaxCoin address:</label>
 
-						<input id="address" type="text" placeholder="18Vm8AvDr9Bkvij6UfVR7MerCyrz3KS3h4">
+						<input id="address" type="text" placeholder="mPQERLaEVcj1cMSMX5tyCcCdBeZCkm6GEK">
 					</div>
 					<div class="large-3 columns">
 						<label for="size">Size (px):</label>
@@ -40,30 +40,26 @@
 
 			<footer>
 				<div id="share">
-					<div class="fb-like" data-href="http://bitcoinqrcode.org/" data-send="false" data-layout="button_count" data-width="105" data-show-faces="false" style="margin-bottom: 4px;"></div>
+					<div class="fb-like" data-href="http://maxcoin.co.uk/qr" data-send="false" data-layout="button_count" data-width="105" data-show-faces="false" style="margin-bottom: 4px;"></div>
 
-					<div><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://bitcoinqrcode.org/" data-text="#Bitcoin QR Code Generator" data-count="horizontal">Tweet</a></div>
+					<div><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://maxcoin.co.uk/qr" data-text="#MaxCoin QR Code Generator" data-count="horizontal">Tweet</a></div>
 
-					<div class="g-plusone" data-href="http://bitcoinqrcode.org/" data-size="medium" data-count="true"></div>
+					<div class="g-plusone" data-href="http://maxcoin.co.uk/qr" data-size="medium" data-count="true"></div>
 				</div>
 
-				By <a href="http://alias.io">Elbert Alias</a>. Donate Bitcoin: 18Vm8AvDr9Bkvij6UfVR7MerCyrz3KS3h4 <em>&mdash; Thanks!</em>
-
-				<br><br>
-
-				<img src="img/donate.png">
+				Provided by <a href="http://maxcoin.co.uk/">MaxCoin Project</a> 2014. Based on code by <a href="http://alias.io">Elbert Alias</a>
 			<footer>
 
 			<div id="qrcode"></div>
 		</div>
 
-		<a id="fork" href="https://github.com/ElbertF/BitcoinQRCode.org">Fork me on Github</a>
+		<a id="fork" href="https://github.com/Max-Coin/qr-code-generator">Fork me on Github</a>
 
 		<script src="lib/jquery/jquery-2.0.3.min.js"></script>
 		<script src="lib/jquery-qrcode/src/qrcode.js"></script>
 		<script src="lib/jquery-qrcode/src/jquery.qrcode.js"></script>
 		<script src="conf/imgur.js"></script>
-		<script src="js/bitcoinqrcode.js"></script>
+		<script src="js/maxcoinqrcode.js"></script>
 
 		<!-- Piwik -->
 		<script type="text/javascript">
@@ -85,7 +81,7 @@
 		<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
 
 		<!-- Google Plus -->
-		<link href="https://plus.google.com/b/107008529118023432137/" rel="publisher"/>
+		<link href="https://plus.google.com/+MaxCoin" rel="publisher"/>
 
 		<script type="text/javascript">
 		(function()
@@ -103,16 +99,5 @@
 		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
 		})();
 		</script>
-
-		<!-- Facebook -->
-		<div id="fb-root"></div>
-
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
 	</body>
 </html>
